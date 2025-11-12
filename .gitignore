@@ -1,0 +1,16 @@
+# Node.js dependencies
+# These folders are huge and can be re-installed by anyone
+/node_modules
+/client/node_modules
+/server/node_modules
+
+# Secret keys
+# NEVER commit this file to GitHub
+/server/.env
+
+# React build folder
+/client/build
+
+# Mac/Windows system files
+.DS_Store
+npm-debug.log
